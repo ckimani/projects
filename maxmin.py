@@ -1,4 +1,4 @@
-def max_min(list):
+def find_max_min(list):
 	
 	new_list = []
 	for numbs in list:
@@ -11,4 +11,4 @@ def max_min(list):
 			return new_list
 			
 		
-print(max_min([5, -1, -4, 90,5, 5]))
+print(find_max_min([5, -1, -4, 90,5, 5]))
