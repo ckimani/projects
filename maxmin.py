@@ -1,5 +1,5 @@
 def max_min(list):
-	joined_list =[]
+	
 	new_list = []
 	for numbs in list:
 		if type(numbs) == int:
