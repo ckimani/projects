@@ -1,16 +1,14 @@
 def max_min(list):
-	new_list=[]
-	max=list[0]
-	min=list[0]
-	for numb in list:
-		if numb>max:
-			max=numb
-			return max
-		elif numb<min:
-			min=numb
-			return min
-		else:
-			if numb==max and numb==min:
-				new_list.append(numb)
+	joined_list =[]
+	new_list = []
+	for numbs in list:
+		if type(numbs) == int:
+			list. sort()
+			del list[1:-1] 
+			return list
+			if numbs == numbs:
+				new_list.append(list)
 			return new_list
-print(max_min([18,-8,9,78]))
+			
+		
+print(max_min([5, -1, -4, 90,5, 5]))
