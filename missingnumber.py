@@ -6,7 +6,7 @@ def find_missing(a, b):
   elif a > b:
   	c = list(a - b)
   else:
-  	return [0]*3
+  	return 0
   
   for elements in c:
   	return elements
