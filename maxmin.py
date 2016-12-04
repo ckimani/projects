@@ -1,18 +1,11 @@
 def find_max_min(list):
-	min = list[0]
-	max = len(list)-1
-	
-	new_list = []
-	for numbs in list:
-		if type(numbs) == int:
-			list. sort()
-			del list[1:-1] 
-			return list
-			if min == max:
-				new_list.append(list)
-			return new_list
-			
-			
-		
-print(find_max_min([5, 9, -3, 90, 208, 5, 5]))
+    new_list=[]
+    mn=min(list)
+    mx=max(list)
+    if max(list)== min(list):
+        new_list.append(len(list))
+    else:
+        new_list.append(mn)
+        new_list.append(mx)
+    return new_list
 
