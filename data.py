@@ -1,6 +1,5 @@
 def data_type(n):
-	if type(n) == None:
-		return 'no value'
+	
 	if type(n) == str:
 		return len(n)
 	elif type(n) == bool:
@@ -13,7 +12,11 @@ def data_type(n):
 		else:
 			return "more than 100"
 	elif type(n) == list:
-		if len(n) > 3:
+		if len(n) >= 3:
 			return  n[2]
 		else:
 			return None
+	else:
+		if type(n) == None:
+			string = str()
+	return str('no value')
